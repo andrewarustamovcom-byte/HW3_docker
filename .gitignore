@@ -1,0 +1,14 @@
+data/*.csv
+data/*.html
+local_data/*.csv
+local_data/*.html
+
+reporter/node_modules/
+reporter/package-lock.json
+
+__pycache__/
+
+.vscode/
+.idea/
+
+*.log
