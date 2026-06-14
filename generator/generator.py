@@ -1,4 +1,3 @@
-cat > generator/generate.py << 'EOF'
 import csv
 import random
 import os
@@ -41,4 +40,3 @@ with open(OUTPUT_FILE, "w", newline="", encoding="utf-8") as f:
     writer = csv.DictWriter(f, fieldnames=COLUMNS)
     writer.writeheader()
     writer.writerows(rows)
-EOF
